@@ -356,6 +356,9 @@ em {
 	float: none;
 
 }
+#missionbox {
+	width: 250px;
+}
 
 #aboutmepic{
 	width: 250px

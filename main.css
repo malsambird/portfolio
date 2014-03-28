@@ -36,7 +36,7 @@ display: none;
 
 }
 .title_initial {
-	width: 60%;
+	width: 80%;
 	margin: auto;
 	margin-top: 50px;
 	text-align: center;
@@ -339,6 +339,13 @@ em {
 	
 	margin-top: 100px;
 }
+.bubble {
+	width: 180px;
+	font-size: 0.9em;
+}
+#hello p {
+	padding: 10px 2px 3px 0;
+}
 
 #content {
 	margin-top: 120px;
@@ -347,6 +354,10 @@ em {
 #aboutmepic, #missionbox {
 	margin:auto;
 	float: none;
+}
+
+#missionbox {
+	min-width: 200px
 }
 .title_initial h1 {
 	font-size: 4em;

@@ -354,10 +354,11 @@ em {
 #aboutmepic, #missionbox {
 	margin:auto;
 	float: none;
+
 }
 
-#missionbox {
-	min-width: 200px
+#aboutmepic{
+	width: 250px
 }
 .title_initial h1 {
 	font-size: 4em;

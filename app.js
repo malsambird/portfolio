@@ -23,9 +23,9 @@ $("#hello").delay(4000).queue(function(next){
 
 $("#title").delay(2000).queue(function(next){
 $(this).removeClass("title_initial").addClass("title_afterintro");
-  
+	$("#nav_work").addClass("current_tab");
     $("#content").fadeIn(1000);
-    $("#nav_work").addClass("current_tab");
+    
 	$("#work").fadeIn(2000);
    next();
 });
@@ -50,7 +50,7 @@ $("#nav_contact").click(function(event){
 	$(this).addClass("current_tab");
 	$("#contact").slideDown('slow');
 	$("#hello").hide();
-	$("#message").text("I'm just a click away!");
+	$("#message").text("Let's connect. Feel free to send me a message!");
 	$("#hello").fadeIn(1500);
 });
 
@@ -61,7 +61,7 @@ $("#nav_about").click(function(event){
 	$(this).addClass("current_tab");
 	$("#about").slideDown('slow');
 	$("#hello").hide();
-	$("#message").text("Hire me!");
+	$("#message").text("Here's a bit about me!");
 	$("#hello").fadeIn(1500);
 });
 
